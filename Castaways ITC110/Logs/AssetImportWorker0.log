@@ -292,3 +292,4 @@ Received Import Request.
 Start importing Assets/Tilemaps/Grass_Sand_Water using Guid(d944356c6a867234894681602dd96b76) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e89316d264f9e905552f7dfdd62c5d64') in 0.008882 seconds 
   Import took 0.015910 seconds .
 
+AssetImportWorkerClient::OnTransportError - code=2 error=End of file
