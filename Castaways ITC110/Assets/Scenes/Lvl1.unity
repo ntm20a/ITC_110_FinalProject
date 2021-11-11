@@ -293,25 +293,25 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   m_LightType: 0
   m_BlendStyleIndex: 3
-  m_FalloffIntensity: 0.713
+  m_FalloffIntensity: 0.521
   m_Color: {r: 0.9716981, g: 0.5885872, b: 0, a: 1}
   m_Intensity: 7
-  m_LightVolumeOpacity: 0.187
+  m_LightVolumeOpacity: 0.129
   m_ApplyToSortingLayers: 00000000
   m_LightCookieSprite: {fileID: 109718205546589128, guid: 072d7e5afcf67974f8671b7d6378f2ae, type: 3}
   m_UseNormalMap: 0
   m_LightOrder: 10
   m_AlphaBlendOnOverlap: 0
-  m_ShadowIntensity: 0.096
-  m_ShadowVolumeIntensity: 0.12
+  m_ShadowIntensity: 0.091
+  m_ShadowVolumeIntensity: 0.226
   m_PointLightInnerAngle: 360
   m_PointLightOuterAngle: 360
   m_PointLightInnerRadius: 0
   m_PointLightOuterRadius: 1
   m_PointLightDistance: 3
   m_PointLightQuality: 1
-  m_ShapeLightParametricSides: 24
-  m_ShapeLightParametricAngleOffset: 110
+  m_ShapeLightParametricSides: 29
+  m_ShapeLightParametricAngleOffset: 120
   m_ShapeLightParametricRadius: 1.7
   m_ShapeLightFalloffSize: 2.3
   m_ShapeLightFalloffOffset: {x: 0, y: 0}
