@@ -12,27 +12,27 @@ AssetImportWorker0
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-52929
+54650
 Successfully changed project path to: /Users/nathanmarshall/Desktop/Game_ITC110/ITC_110_FinalProject/Castaways ITC110
 /Users/nathanmarshall/Desktop/Game_ITC110/ITC_110_FinalProject/Castaways ITC110
 Using Asset Import Pipeline V2.
-Refreshing native plugins compatible for Editor in 220.41 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 161.68 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2020.3.16f1 (049d6eca3c44)
 [Subsystems] Discovering subsystems at path /Applications/Unity/Unity.app/Contents/Resources/UnitySubsystems
 [Subsystems] Discovering subsystems at path /Users/nathanmarshall/Desktop/Game_ITC110/ITC_110_FinalProject/Castaways ITC110/Assets
 GfxDevice: creating device client; threaded=0
-2021-11-11 14:43:34.514 Unity[6284:200580] Color LCD preferred device: Intel(R) Iris(TM) Graphics 6000 (low power)
-2021-11-11 14:43:34.514 Unity[6284:200580] Metal devices available: 1
-2021-11-11 14:43:34.514 Unity[6284:200580] 0: Intel(R) Iris(TM) Graphics 6000 (low power)
-2021-11-11 14:43:34.515 Unity[6284:200580] Using device Intel(R) Iris(TM) Graphics 6000 (low power)
+2021-11-16 14:39:34.002 Unity[3077:98899] Color LCD preferred device: Intel(R) Iris(TM) Graphics 6000 (low power)
+2021-11-16 14:39:34.002 Unity[3077:98899] Metal devices available: 1
+2021-11-16 14:39:34.002 Unity[3077:98899] 0: Intel(R) Iris(TM) Graphics 6000 (low power)
+2021-11-16 14:39:34.005 Unity[3077:98899] Using device Intel(R) Iris(TM) Graphics 6000 (low power)
 Initializing Metal device caps: Intel(R) Iris(TM) Graphics 6000
 Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
 Initialize mono
 Mono path[0] = '/Applications/Unity/Unity.app/Contents/Managed'
 Mono path[1] = '/Applications/Unity/Unity.app/Contents/MonoBleedingEdge/lib/mono/unityjit'
 Mono config path = '/Applications/Unity/Unity.app/Contents/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56284
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56077
 Begin MonoManager ReloadAssembly
 Error scanning for extension ivy.xml files: System.UnauthorizedAccessException: Access to the path '/Applications/Unity/PlaybackEngines/WebGLSupport/BuildTools/Emscripten_Mac/node' is denied.
   at System.IO.__Error.WinIOError (System.Int32 errorCode, System.String maybeFullPath) [0x00129] in <695d1cc93cca45069c528c15c9fdd749>:0 
@@ -47,89 +47,89 @@ Error scanning for extension ivy.xml files: System.UnauthorizedAccessException: 
 Registering precompiled unity dll's ...
 Register platform support module: /Applications/Unity/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
 Register platform support module: /Applications/Unity/Unity.app/Contents/PlaybackEngines/MacStandaloneSupport/UnityEditor.OSXStandalone.Extensions.dll
-Registered in 0.003685 seconds.
+Registered in 0.004470 seconds.
 Native extension for OSXStandalone target not found
 Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 157.48 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 155.27 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  6.376 seconds
+- Completed reload, in  7.624 seconds
 Domain Reload Profiling:
-	ReloadAssembly (6377ms)
-		BeginReloadAssembly (161ms)
+	ReloadAssembly (7624ms)
+		BeginReloadAssembly (116ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (0ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (2ms)
-		EndReloadAssembly (1315ms)
-			LoadAssemblies (163ms)
+			CreateAndSetChildDomain (3ms)
+		EndReloadAssembly (1636ms)
+			LoadAssemblies (119ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (456ms)
+			SetupTypeCache (675ms)
 			ReleaseScriptCaches (0ms)
-			RebuildScriptCaches (107ms)
-			SetupLoadedEditorAssemblies (563ms)
+			RebuildScriptCaches (98ms)
+			SetupLoadedEditorAssemblies (612ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (11ms)
+				InitializePlatformSupportModulesInManaged (32ms)
 				SetLoadedEditorAssemblies (1ms)
-				RefreshPlugins (158ms)
-				BeforeProcessingInitializeOnLoad (26ms)
-				ProcessInitializeOnLoadAttributes (278ms)
-				ProcessInitializeOnLoadMethodAttributes (89ms)
+				RefreshPlugins (155ms)
+				BeforeProcessingInitializeOnLoad (22ms)
+				ProcessInitializeOnLoadAttributes (340ms)
+				ProcessInitializeOnLoadMethodAttributes (61ms)
 				AfterProcessingInitializeOnLoad (0ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (0ms)
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.022539 seconds.
+Registered in 0.022993 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for OSXStandalone target not found
 Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 160.95 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 102.70 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  4.026 seconds
+- Completed reload, in  3.451 seconds
 Domain Reload Profiling:
-	ReloadAssembly (4034ms)
-		BeginReloadAssembly (507ms)
+	ReloadAssembly (3465ms)
+		BeginReloadAssembly (426ms)
 			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (50ms)
+			DisableScriptedObjects (16ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (85ms)
-		EndReloadAssembly (3356ms)
-			LoadAssemblies (333ms)
+			CreateAndSetChildDomain (87ms)
+		EndReloadAssembly (2894ms)
+			LoadAssemblies (323ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (1089ms)
-			ReleaseScriptCaches (2ms)
-			RebuildScriptCaches (190ms)
-			SetupLoadedEditorAssemblies (1392ms)
+			SetupTypeCache (1119ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (128ms)
+			SetupLoadedEditorAssemblies (1058ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (16ms)
+				InitializePlatformSupportModulesInManaged (10ms)
 				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (161ms)
-				BeforeProcessingInitializeOnLoad (211ms)
-				ProcessInitializeOnLoadAttributes (889ms)
-				ProcessInitializeOnLoadMethodAttributes (111ms)
-				AfterProcessingInitializeOnLoad (3ms)
+				RefreshPlugins (103ms)
+				BeforeProcessingInitializeOnLoad (167ms)
+				ProcessInitializeOnLoadAttributes (671ms)
+				ProcessInitializeOnLoadMethodAttributes (104ms)
+				AfterProcessingInitializeOnLoad (2ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (19ms)
+			AwakeInstancesAfterBackupRestoration (11ms)
 Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
 Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
 Launching external process: /Applications/Unity/Unity.app/Contents/Tools/UnityShaderCompiler
 Launched and connected shader compiler UnityShaderCompiler after 0.04 seconds
-Refreshing native plugins compatible for Editor in 2.28 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 1.32 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 3716 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 243.5 MB.
-System memory in use after: 243.7 MB.
+System memory in use before: 243.9 MB.
+System memory in use after: 244.1 MB.
 
-Unloading 65 unused Assets to reduce memory usage. Loaded Objects now: 4120.
-Total: 15.286706 ms (FindLiveObjects: 0.491282 ms CreateObjectMapping: 0.575347 ms MarkObjects: 14.003362 ms  DeleteObjects: 0.214282 ms)
+Unloading 65 unused Assets to reduce memory usage. Loaded Objects now: 4121.
+Total: 10.264088 ms (FindLiveObjects: 0.445985 ms CreateObjectMapping: 0.193189 ms MarkObjects: 9.475905 ms  DeleteObjects: 0.146712 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
@@ -143,40 +143,40 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  path: Assets/UniversalRenderPipelineAsset.asset
-  artifactKey: Guid(9109856f2af72604abe25a3d9be723ca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/UniversalRenderPipelineAsset.asset using Guid(9109856f2af72604abe25a3d9be723ca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b80b3839cae01f37a7ff977f94854549') in 0.470362 seconds 
-  Import took 0.484301 seconds .
+  path: Assets/CampFire/New Piskel (2) 1.png
+  artifactKey: Guid(3fcceed52f16d458dab46f6ed302535e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CampFire/New Piskel (2) 1.png using Guid(3fcceed52f16d458dab46f6ed302535e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '04faf231d5853ec5d21863e80651f011') in 0.784630 seconds 
+  Import took 0.799625 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.001539 seconds.
-  path: Assets/UniversalRenderPipelineAsset_Renderer.asset
-  artifactKey: Guid(572f57bfc63deed46a65c375fee888b8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/UniversalRenderPipelineAsset_Renderer.asset using Guid(572f57bfc63deed46a65c375fee888b8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '281405da8edced521737a9b7821e0b1f') in 0.031399 seconds 
-  Import took 0.043654 seconds .
+  Time since last request: 19.990796 seconds.
+  path: Assets/CampFire/New Piskel (2) 1.png
+  artifactKey: Guid(3fcceed52f16d458dab46f6ed302535e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CampFire/New Piskel (2) 1.png using Guid(3fcceed52f16d458dab46f6ed302535e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b867dd00ae8a080df53c45712f041a7f') in 0.024589 seconds 
+  Import took 0.041520 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000505 seconds.
-  path: Assets/New 2D Renderer Data.asset
-  artifactKey: Guid(3e1939d222f6407458830bdb9a95e589) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/New 2D Renderer Data.asset using Guid(3e1939d222f6407458830bdb9a95e589) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '071981615dd174f1e2e5b21a623c5f63') in 0.014842 seconds 
-  Import took 0.032908 seconds .
+  Time since last request: 118.423755 seconds.
+  path: Assets/CampFire/New Piskel (2) 2.png
+  artifactKey: Guid(ae059f8c023d845ac944d0bad1e11652) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CampFire/New Piskel (2) 2.png using Guid(ae059f8c023d845ac944d0bad1e11652) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '747bae8dbbd1ef8d5a91ec40bd53fc9f') in 0.028457 seconds 
+  Import took 0.043150 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 74.087634 seconds.
-  path: Assets/Scenes/Lvl1.unity
-  artifactKey: Guid(b8f14c8c9ec70437db1fb92c51fc4a41) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/Lvl1.unity using Guid(b8f14c8c9ec70437db1fb92c51fc4a41) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0f4286f6d45ff1db01a11bfbcd935b4d') in 0.003195 seconds 
-  Import took 0.016960 seconds .
+  Time since last request: 45.587395 seconds.
+  path: Assets/CampFire/New Piskel (2) 2.png
+  artifactKey: Guid(ae059f8c023d845ac944d0bad1e11652) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CampFire/New Piskel (2) 2.png using Guid(ae059f8c023d845ac944d0bad1e11652) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '38385009d4d31bc660b3bbed23f60cd1') in 0.022095 seconds 
+  Import took 0.038665 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.055113 seconds.
-  path: Assets/Scenes/Lvl1.unity
-  artifactKey: Guid(b8f14c8c9ec70437db1fb92c51fc4a41) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/Lvl1.unity using Guid(b8f14c8c9ec70437db1fb92c51fc4a41) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0f4286f6d45ff1db01a11bfbcd935b4d') in 0.003270 seconds 
-  Import took 0.020328 seconds .
+  Time since last request: 4.842951 seconds.
+  path: Assets/CampFire
+  artifactKey: Guid(08c90cc413687124da6a5c935783f8e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CampFire using Guid(08c90cc413687124da6a5c935783f8e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a89ec157fd455991b2bbfa7d3c1878c7') in 0.005413 seconds 
+  Import took 0.025307 seconds .
 
